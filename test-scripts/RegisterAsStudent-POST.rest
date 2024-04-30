@@ -1,0 +1,26 @@
+###Ömer
+### Register as Student
+
+POST http://localhost:8080/api/student/registerasstudent
+Content-Type: application/json
+Authorization: Basic ykartal@ogu.edu.tr:sdfasdfadfasdfasdfasdf
+
+{
+    "tckn": "12345671231",
+    "studentNo": "152120190000",
+    "username": "omerr54",
+    "name": "Ömer",
+    "surname": "Kurtuldu",
+    "email": "omerkurtuldu01@gmail.com",
+    "grade": "4",
+    "phoneNumber": "539-484-34-38",
+    "birthPlace": "Sakarya",
+    "faculty": {
+        "id": 0
+    },
+    "birthDate": "1999-02-25T00:00:00",
+    "password": "sdfasdfadfasdfasdfasdf",
+    "confirmPassword": "sdfasdfadfasdfasdfasdf",
+    "address": "Address"
+}
+

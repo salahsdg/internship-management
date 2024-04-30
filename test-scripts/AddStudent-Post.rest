@@ -1,0 +1,24 @@
+### Create a new student
+POST http://localhost:8080/api/student
+Content-Type: application/json
+Authorization: Basic ykartal@ogu.edu.tr:sdfasdfadfasdfasdfasdf
+
+{
+  "name": "Murat1",
+  "surname": "Dört1",
+  "tckn": "29348351621",
+  "grade": "3,42",
+  "studentNo": "1521111197844",
+  "phoneNumber": "05548796577",
+  "birthPlace": "Adana",
+  "birthDate": "2001-07-30T21:00:00.000+00:00",
+  "user": {
+     "username":"murat1",
+        "password":"123",
+        "email":"murat1@ogu.edu.tr"
+  },
+  "facultyId": 0,
+  "address": "Yenibaglar mah. Susam sok. 3/7 Tepebasi/Eskisehir"
+}
+
+
